@@ -1,7 +1,7 @@
 "use strict"; 
 var webdriver = require("selenium-webdriver"),
 SeleniumServer = require("selenium-webdriver/remote").SeleniumServer;
-import 'creds';
+import 'creds/creds';
  
 var cbtHub = "http://hub.crossbrowsertesting.com:80/wd/hub";
 
